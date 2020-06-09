@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    background: rgb(182, 175, 175);
+}
+/*Menu fixo*/
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 2%;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: right;
+    background: rgb(71, 71, 250);
+    
+}
+header li{
+    display: inline-block; 
+    margin: 0 15px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    margin-top: 80px;
+    color: rgb(236, 67, 67);
+    height: 500px;
+    width: 800px;
+    max-width: 800px;
+    padding: 100px 0 0 0;
+    
+}
+.title{
+    font-size: 60px;
+}
