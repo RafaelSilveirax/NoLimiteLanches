@@ -36,14 +36,15 @@ body{
     margin-right: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     transition: color, 0.5s;
+    font-size: 1.2em;
 }
 
 .menu a:hover{
-    color: turquoise;
+    color: rgb(22, 129, 252); 
 }
 
 .menu a:active{
-    color: turquoise;
+    color:rgb(22, 129, 252); 
 }
 
 .logo{
@@ -79,7 +80,7 @@ label[for=btn_menu]{
     }
     .menu{
         margin-left: -2000px;
-        transition: all 1s;
+        transition: all 0.5s;
     }
     .menu .logo{
         display: none;
@@ -96,7 +97,10 @@ label[for=btn_menu]{
         margin-bottom: 5px;
         border: black solid 3px;
         border-radius: 10px;
-        background-color: turquoise; 
+        background-color: rgb(22, 129, 252); 
+     }
+     .menu a{
+         font-size: 1em;
      }
      .menu a:hover{
         color: black;
